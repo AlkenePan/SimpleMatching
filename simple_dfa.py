@@ -48,4 +48,5 @@ class DFA(object):
                 yield result
                 break
             if self.current_state == last_state:
-                raise DFA.BadThing(thing)<Paste>
+                raise DFA.BadThing(thing)
+
